@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="PencilShop.ProductUnit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PencilShop"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="800">
+    <Grid Background="Azure">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Image x:Name="ImageForUnit" Stretch="Fill" Source="/Resources/carrot.jpg"></Image>
+        </Grid>
+        <Grid Grid.Column="1">
+            <TextBlock x:Name="NameUnit" Text="Name" FontSize="20"/>
+            <TextBlock x:Name="Category" Text="Description" Height="30" VerticalAlignment="Top" TextWrapping="Wrap" Margin="0,30,0,0"/>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Border/>
+            <TextBlock x:Name="PriceUnit" Text="1000 p" FontSize="18" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+        </Grid>
+    </Grid>
+</UserControl>

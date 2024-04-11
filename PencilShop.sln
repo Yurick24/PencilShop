@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PencilShop", "PencilShop\PencilShop.csproj", "{99F52EEF-2A19-4E70-A8D1-BE367FF0CDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForUnits", "TestForUnits\TestForUnits.csproj", "{3201983F-D457-44DC-9563-1A3C51313E09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F52EEF-2A19-4E70-A8D1-BE367FF0CDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F52EEF-2A19-4E70-A8D1-BE367FF0CDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F52EEF-2A19-4E70-A8D1-BE367FF0CDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F52EEF-2A19-4E70-A8D1-BE367FF0CDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3201983F-D457-44DC-9563-1A3C51313E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3201983F-D457-44DC-9563-1A3C51313E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3201983F-D457-44DC-9563-1A3C51313E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3201983F-D457-44DC-9563-1A3C51313E09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59AE6607-A680-4995-90F7-EF413AA61A31}
+	EndGlobalSection
+EndGlobal
